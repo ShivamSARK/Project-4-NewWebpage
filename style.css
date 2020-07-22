@@ -1,0 +1,350 @@
+body, html {
+    height: 100%;
+  }
+ /*-------------------------Nav Bar--------------------*/
+ 
+.navbar{
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px gray;
+}
+.navbar .navbar-brand {
+    margin-right: 200px;
+}
+.navbar img{
+
+    max-width: 100px;
+    max-height: 50px;
+}
+
+ /*-------------------------First--------------------*/
+
+.first{
+    background-image: url("https://www.lefthudson.com/wp-content/uploads/2019/11/black-desert-online-background-inspirational-black-desert-line-wallpapers-wallpaper-cave-ideas-of-black-desert-online-background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.first .center{
+   text-align: center;
+}
+.first .center p{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: blanchedalmond;
+    font-family: fantasy;
+}
+.first .center h1{
+   
+    font-weight: bolder;
+    color: white;
+    margin-top: 10px;
+    font-family: monospace;
+    text-shadow: 2px 3px gray;
+}
+.first .center h4{
+    color: rgb(56, 52, 52);
+    font-weight: bolder;
+    margin-top: 5px;
+    font-family: fantasy;
+    text-shadow: 1px 1px white;
+}
+.first .center a{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: white;
+    font-family: fantasy;
+    margin-bottom: 50px;
+}
+
+
+ /*-------------------------Second--------------------*/
+
+.second .box{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.second .box h1{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    font-family: fantasy;
+    margin-bottom: 5px;
+}
+
+.second .box input{
+    height: 30px;
+}
+.second .box input::placeholder{
+    font-size: 15px;
+}
+.second .box textarea::placeholder{
+    font-size: 15px;
+}
+
+
+.second .box h2{
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    font-family: fantasy;
+    margin-bottom: 5px;
+}
+
+
+ /*-------------------------Third--------------------*/
+ 
+ .third h1{
+     font-size: 25px;
+     font-weight: bolder;
+}
+.third p{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.third .box{
+    padding: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+}
+.third .box:hover{
+    box-shadow: 10px 10px 10px gray;
+ 
+}
+.third .box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.third .box a{
+    font-size: 18px;
+    font-weight: bolder;
+    color: darkslategray;
+
+}
+.third .box a:hover{
+    text-decoration: none;
+    color: blue;
+
+}
+
+ /*-------------------------Forth--------------------*/
+ .forth .col1{
+     padding: 5px;
+
+ }
+ .forth .col1 h1{
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(19, 24, 24);
+
+ }
+ .forth .col1 p{
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .forth .col2 .box{
+    width: 120px;
+    text-align: center;
+    padding: 5px 5px;
+ }
+ .forth .col2 p{
+     font-weight: lighter;
+     font-size: 17px;
+     margin-top: 5px;
+ }
+ .forth .col2 a{
+     color: black;
+     font-weight: bolder;
+     font-size: 20px;
+ }
+ .forth .col2 a:hover{
+    color: blue;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+ /*-------------------------Fifth--------------------*/
+
+ .fifth  h1{
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(19, 24, 24);
+     
+ }
+ .fifth  strong{
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(19, 24, 24);
+     
+ }
+ .carousel .box{
+   
+    border: 1px solid gray;
+
+}
+.carousel img{
+    width: 100%;
+    height: 250px;
+    float: left;
+    border: 0px solid gray;
+    box-shadow: 0px 0px 5px gray;
+}
+.carousel img:hover{
+    box-shadow: 5px 5px 10px gray;
+
+}
+.carousel .box h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.MultiCarousel {
+     float: left; 
+     overflow: hidden;
+      padding: 15px; 
+      width: 100%; 
+      position:relative;
+     }
+
+.MultiCarousel .MultiCarousel-inner {
+     transition: 1s ease all; 
+     float: left; 
+    }
+.MultiCarousel .MultiCarousel-inner .item { 
+    float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+     text-align: center;
+     padding:10px; 
+     margin:10px; 
+     color:#666;
+    }
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+     position:absolute;
+      border-radius:50%;
+      top:calc(50% - 20px); 
+    }
+.MultiCarousel .leftLst {
+     left:0;
+     }
+.MultiCarousel .rightLst {
+     right:0;
+     }
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+     pointer-events: none; 
+     background:#ccc;
+     }
+
+/*-------------------------Sixth--------------------*/
+.sixth h1{
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(19, 24, 24);
+
+}
+.sixth a{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sixth p{
+    font-size: 15px;
+}
+.sixth iframe{
+    width: 100%;
+    height:250px;
+}
+
+/*-------------------------Seventh--------------------*/
+.seventh h1{
+    color: dodgerblue;
+}
+.seventh h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.seventh p{
+    font-size: 15px;
+
+}
+
+/*-------------------------Eighth--------------------*/
+.eighth h1{
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+/*-------------------------Nineth--------------------*/
+.nineth{
+    background-color:black ;
+}
+.nineth strong{
+    color: white;
+}
+.nineth ul{
+    list-style: none;
+}
+.nineth ul li{
+    padding: 10px;
+}
+.nineth ul li a{
+    font-size: 15px;
+    font-weight: light;
+    text-decoration: none;
+   
+}
+.nineth ul li a:hover{
+    font-size: 15px;
+    font-weight: light;
+    text-decoration: none;
+   color: white;
+}
+.nineth p{
+    color: rgb(240, 229, 229);
+    font-size: 15px;
+}
+.nineth input{
+    background-color: rgb(13, 13, 75);
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 30px;
+    width: 100%;
+}
+.nineth button{
+    background-image: linear-gradient(to right, rgb(235, 88, 88), rgb(31, 51, 233));
+    border: 1px solid red;
+    padding: 5px 30px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.nineth .icons a{
+    padding: 0px 20px;
+   
+
+}
+
+
+
+
+
+
+@media screen and (max-width:650px){
+    .first .center p{
+        margin-top: 20px;
+       
+    }
+}
